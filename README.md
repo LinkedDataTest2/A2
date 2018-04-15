@@ -1,1 +1,2 @@
-# A2
+# Assignment2
+Creación de RDF
