@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xml:base="http://upm.fi/wsld/ass2.rdf"
+>
+
+<rdf:Description rdf:about="ass2.rdf#Class01">
+	<rdf:includes rdf:resource="ass2.rdf#Sensor029"/>
+	<rdf:includes rdf:resource="ass2.rdf#Computer101"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="ass2.rdf#Sensor029">
+	<rdf:hasMeasurement rdf:resource="ass2.rdf#Measurement8401"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="ass2.rdf#Measurement8401">
+	<rdf:hasTemperature rdf:datatype="xsd:int">29</rdf:hasTemperature>
+	<rdf:atTime rdf:datatype="xsd:dateTime">2010-06-12T12:00:12</rdf:atTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="ass2.rdf#Computer101">
+	<rdf:hasOwner rdf:resource="ass2.rdf#User10A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="ass2.rdf#User10A">
+	<rdf:hasName rdf:datatype="xsd:string">Pedro</rdf:hasName>
+</rdf:Description>
+
+</rdf:RDF>
